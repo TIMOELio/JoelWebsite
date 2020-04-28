@@ -1,0 +1,46 @@
+body {
+    text-transform: capitalize;
+    background-image: url(../images/titlepicture.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #212529;
+}
+
+.arrow img {
+    width: 50px;
+    margin-top: 20%;
+}
+
+.rotate img {
+    margin-top: 5%;
+    transform: rotate(180deg);
+}
+
+a:hover {
+    text-decoration: none;
+    filter: brightness(0.7);
+}
+
+#about h2 {
+    font-size: 50px;
+}
+
+#about img {
+    height: 200px;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+#websites img, #games img {
+    height: 112px;
+    width: 112px;
+    margin-bottom: 16px;
+}
+
+#websites h4, #games h4, #websites p, #games p {
+    color: #212529;
+}
+
+#github a {
+    color: white;
+}

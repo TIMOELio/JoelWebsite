@@ -20,9 +20,12 @@
   <link href="style/stylish-portfolio.min.css" rel="stylesheet">
   <link href="style/stylesheet.css" rel="stylesheet">
 
+  <!--- Javascript -->
+  <script src="js/github_api.js"></script>
+
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="getGithubAPI();">
 
   <!-- Header -->
   <header class="masthead d-flex" id="header">
@@ -137,7 +140,7 @@
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <a href="https://school.joelbrendle.ch">
             <h4>
-              <strong>Homework Planner</strong>
+              <strong class="row11">Homework Planner</strong>
             </h4>
             <p class="text-faded mb-0">Hausaufgaben Mit Der Klasse Zusammen Managen</p>
           </a>
@@ -243,22 +246,28 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.xing.com/profile/Joel_Brendle">
+            <i class="icon-social-facebook">
+              <img class="rounded-circle" src="images/xing.jpg">
+            </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/joel-brendle-901a95124/">
+            <i class="icon-social-twitter">
+              <img class="rounded-circle" src="images/linkedin.png">
+            </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
+          <a class="social-link rounded-circle text-white" href="https://github.com/TIMOELio">
+            <i class="icon-social-github">
+              <img class="rounded-circle" src="images/github.png">
+            </i>
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Brendle Joel 2020</p>
+      <p class="small mb-0">Copyright &copy; Brendle Joel 2020</p>
     </div>
   </footer>
 

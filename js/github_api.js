@@ -34,14 +34,14 @@ function getGithubAPI() {
             gh_title1.innerHTML = title1Value;
             gh_desc1.innerHTML = desc1Value;
             document.getElementById("gh_link2").href = link2Value;
-            gh_title1.innerHTML = title2Value;
-            gh_desc1.innerHTML = desc2Value;
+            gh_title2.innerHTML = title2Value;
+            gh_desc2.innerHTML = desc2Value;
             document.getElementById("gh_link3").href = link3Value;
-            gh_title1.innerHTML = title3Value;
-            gh_desc1.innerHTML = desc3Value;
+            gh_title3.innerHTML = title3Value;
+            gh_desc3.innerHTML = desc3Value;
             document.getElementById("gh_link4").href = link4Value;
-            gh_title1.innerHTML = title4Value;
-            gh_desc1.innerHTML = desc4Value;
+            gh_title4.innerHTML = title4Value;
+            gh_desc4.innerHTML = desc4Value;
             
         })
 }

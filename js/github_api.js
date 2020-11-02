@@ -13,7 +13,7 @@ function getGithubAPI() {
     var gh_title4 = document.querySelector('.gh_title4');
     var gh_desc4 = document.querySelector('.gh_desc4');
 
-    fetch('https://api.github.com/users/timoelio/repos?sort=updated')
+    fetch('https://api.github.com/users/joelbrendle/repos?sort=updated')
         .then(response => response.json())
         .then(data => {
 
